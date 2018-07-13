@@ -4,6 +4,10 @@
          url('../fonts/DroidSerif-Bold-webfont.ttf') format('truetype'),
 }
 
+@function remy($value) {
+  @return ($value / 16px) *1rem;
+}
+
 $font-family-sans-serif: 'droid_serifbold';
 $navbar-light-color: #202020;
 $text-color: #4a4a4a;
