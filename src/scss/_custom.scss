@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'droid_serifbold';
+    src: url('../fonts/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Bold-webfont.ttf') format('truetype'),
+}
+
+$font-family-sans-serif: 'droid_serifbold';
 $navbar-light-color: #202020;
 
 @import '_header.scss';
+@import '_blog.scss';
