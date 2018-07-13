@@ -1,5 +1,14 @@
+.blog {
+  margin: 64px 0;
+}
 .title {
   font-family: $font-family-sans-serif;
   font-size: 2.875rem;
   color: $navbar-light-color;
+}
+.subtitle {
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  color: $text-color;
+  letter-spacing: 0.13px;
 }

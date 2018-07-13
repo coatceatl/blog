@@ -2,6 +2,9 @@
   font-family: 'droid_serifbold';
   src: url(fonts/DroidSerif-Bold-webfont.woff) format("woff"), url(fonts/DroidSerif-Bold-webfont.ttf) format("truetype"); }
 
+.header {
+  margin: 28px 0; }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
@@ -9,10 +12,19 @@
   text-transform: uppercase;
   color: #202020; }
 
+.blog {
+  margin: 64px 0; }
+
 .title {
   font-family: "droid_serifbold";
   font-size: 2.875rem;
   color: #202020; }
+
+.subtitle {
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  letter-spacing: 0.13px; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
