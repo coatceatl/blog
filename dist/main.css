@@ -24,7 +24,26 @@
   font-family: 'Montserrat';
   font-size: 1.125rem;
   color: #4a4a4a;
-  letter-spacing: 0.13px; }
+  letter-spacing: 0.13px;
+  padding-bottom: 54px; }
+
+.post-image {
+  background-color: #d4d5d0;
+  width: 363px; }
+
+.image1 {
+  height: 283px; }
+
+.post-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  letter-spacing: 0.15px; }
+
+.post-body {
+  font-family: 'Montserrat';
+  font-size: 0.875rem;
+  color: #4a4a4a; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)

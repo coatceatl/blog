@@ -11,4 +11,23 @@
   font-size: remy(18px);
   color: $text-color;
   letter-spacing: 0.13px;
+  padding-bottom: 54px;
+}
+.post-image {
+  background-color: #d4d5d0;
+  width: 363px;
+}
+.image1 {
+  height: 283px;
+}
+.post-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: remy(22px);
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.post-body {
+  font-family: 'Montserrat';
+  font-size: remy(14px);
+  color: $text-color;
 }
