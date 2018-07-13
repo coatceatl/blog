@@ -41,12 +41,23 @@
   font-family: 'Raleway', sans-serif;
   font-size: 1.375rem;
   font-weight: 400;
-  letter-spacing: 0.15px; }
+  letter-spacing: 0.15px;
+  color: #202020;
+  padding-top: 30px; }
 
-.post-body {
+.post-text {
   font-family: 'Montserrat';
   font-size: 0.875rem;
+  font-weight: 300;
   color: #4a4a4a; }
+
+.post-link {
+  font-family: 'Montserrat';
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: 0.07px; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)

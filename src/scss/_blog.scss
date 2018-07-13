@@ -28,9 +28,20 @@
   font-size: remy(22px);
   font-weight: 400;
   letter-spacing: 0.15px;
+  color: $navbar-light-color;
+  padding-top: 30px;
 }
-.post-body {
+.post-text {
   font-family: 'Montserrat';
   font-size: remy(14px);
+  font-weight: 300;
   color: $text-color;
+}
+.post-link {
+  font-family: 'Montserrat';
+  font-size: remy(14px);
+  font-weight: 400;
+  color: $navbar-light-color;
+  text-transform: uppercase;
+  letter-spacing: 0.07px;
 }
