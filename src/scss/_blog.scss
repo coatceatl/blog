@@ -16,12 +16,18 @@
 .post-image {
   background-color: #d4d5d0;
   width: 363px;
+  position: relative;
 }
 .image1 {
   height: 283px;
 }
 .image2 {
   height: 403px;
+}
+.post-comments {
+  content:'';
+  position: absolute;
+  right: 0;
 }
 .post-title {
   font-family: 'Raleway', sans-serif;
