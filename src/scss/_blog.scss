@@ -67,3 +67,12 @@ time {
   font-size: remy(14px);
   font-weight: 300;
 }
+
+#disqus-thread {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+}
