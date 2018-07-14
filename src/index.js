@@ -1,4 +1,15 @@
 import 'bootstrap';
+import $ from 'jquery';
+import Masonry from 'masonry-layout';
+import jQueryBridget from 'jquery-bridget';
 
-//import $ from 'jquery';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+jQueryBridget('masonry', Masonry, $);
+
+$(document).ready(function() {
+ $('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: 360,
+    gutter: 15,
+  });
+});
+
