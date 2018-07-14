@@ -47,7 +47,12 @@
 .post-comments {
   content: '';
   position: absolute;
-  right: 0; }
+  right: 0;
+  bottom: 0;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  width: 100%;
+  color: #fff; }
 
 .post-title {
   font-family: 'Raleway', sans-serif;
@@ -70,6 +75,11 @@
   color: #202020;
   text-transform: uppercase;
   letter-spacing: 0.07px; }
+
+.date {
+  font-family: 'Montserrat';
+  font-size: 0.875rem;
+  font-weight: 300; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)

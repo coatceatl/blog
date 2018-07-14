@@ -34,6 +34,11 @@
   content:'';
   position: absolute;
   right: 0;
+  bottom: 0;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  width: 100%;
+  color: #fff;
 }
 .post-title {
   font-family: 'Raleway', sans-serif;
@@ -56,4 +61,9 @@
   color: $navbar-light-color;
   text-transform: uppercase;
   letter-spacing: 0.07px;
+}
+.date {
+  font-family: 'Montserrat';
+  font-size: remy(14px);
+  font-weight: 300;
 }
