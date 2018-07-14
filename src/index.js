@@ -8,8 +8,9 @@ jQueryBridget('masonry', Masonry, $);
 $(document).ready(function() {
  $('.grid').masonry({
     itemSelector: '.grid-item',
-    columnWidth: 360,
-    gutter: 15,
+    columnWidth: '.grid-sizer',
+    //gutter: 10,
+    percentPosition: true
   });
 });
 
