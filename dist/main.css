@@ -29,7 +29,6 @@
 
 .post-image {
   background-color: #d4d5d0;
-  width: 360px;
   position: relative; }
 
 .image1 {
@@ -50,6 +49,7 @@
   right: 0;
   bottom: 0;
   padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 14px;
   width: 100%;
   color: #fff; }
@@ -76,7 +76,7 @@
   text-transform: uppercase;
   letter-spacing: 0.07px; }
 
-.date {
+time {
   font-family: 'Montserrat';
   font-size: 0.875rem;
   font-weight: 300; }
