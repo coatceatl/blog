@@ -6,12 +6,16 @@
   font-size: remy(14px);
   font-weight: 700;
   letter-spacing: 0.07px;
-  color: $navbar-light-color;
+  color: $base-color;
   text-transform: uppercase;
 }
 .social {
   list-style: none;
 }
 .social-link {
-  color: $navbar-light-color;
+  color: $base-color;
+
+  &:hover {
+    color: $link-green;
+  }
 }

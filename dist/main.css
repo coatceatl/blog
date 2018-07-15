@@ -87,6 +87,9 @@
   text-transform: uppercase;
   letter-spacing: 0.07px;
   margin-top: 11px; }
+  .post-link:hover {
+    color: #0cbb58;
+    text-decoration: none; }
 
 time {
   font-family: 'Montserrat';
@@ -103,17 +106,11 @@ time {
 
 .author-link {
   color: #0cbb58; }
+  .author-link:hover {
+    text-decoration: none;
+    color: #0cbb58;
+    font-weight: 400; }
 
-/*
-#disqus-thread {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  width: 300px;
-  height: 400px;
-  background-color: lightblue;
-}
-*/
 .subscribe {
   background-color: #f7f7f7; }
 
@@ -178,6 +175,8 @@ button.form-btn {
 
 .social-link {
   color: #202020; }
+  .social-link:hover {
+    color: #0cbb58; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
@@ -3181,7 +3180,7 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #202020; }
+  color: rgba(0, 0, 0, 0.5); }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
   .navbar-light .navbar-nav .nav-link.disabled {
@@ -3194,14 +3193,14 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler {
-  color: #202020;
+  color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1); }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23202020' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 .navbar-light .navbar-text {
-  color: #202020; }
+  color: rgba(0, 0, 0, 0.5); }
   .navbar-light .navbar-text a {
     color: rgba(0, 0, 0, 0.9); }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {

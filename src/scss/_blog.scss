@@ -4,7 +4,7 @@
 .title {
   font-family: $font-family-sans-serif;
   font-size: remy(46px);
-  color: $navbar-light-color;
+  color: $base-color;
 }
 .subtitle {
   font-family: 'Montserrat';
@@ -53,7 +53,7 @@
   font-size: remy(22px);
   font-weight: 400;
   letter-spacing: 0.15px;
-  color: $navbar-light-color;
+  color: $base-color;
   padding-top: 30px;
 }
 .post-text {
@@ -66,10 +66,15 @@
   font-family: 'Montserrat';
   font-size: remy(14px);
   font-weight: 400;
-  color: $navbar-light-color;
+  color: $base-color;
   text-transform: uppercase;
   letter-spacing: 0.07px;
   margin-top: 11px;
+
+  &:hover {
+    color: $link-green;
+    text-decoration: none;
+  }
 }
 time {
   font-family: 'Montserrat';
@@ -81,19 +86,16 @@ time {
   font-size: remy(12px);
   font-weight: 300;
   letter-spacing: 0.08px;
-  color: $navbar-light-color;
+  color: $base-color;
   margin: 2px 0 13px 0;
 }
 .author-link {
-  color: #0cbb58;
+  color: $link-green;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-green;
+    font-weight: 400;
+  }
 }
-/*
-#disqus-thread {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  width: 300px;
-  height: 400px;
-  background-color: lightblue;
-}
-*/
+
