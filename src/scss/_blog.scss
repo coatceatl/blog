@@ -16,6 +16,18 @@
 .grid-item {
   margin-bottom: 58px;
 }
+.card {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    width: 25px;
+    height: 26px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+  }
+}
 .post-image {
   background-color: #d4d5d0;
   position: relative;
