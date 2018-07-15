@@ -151,6 +151,23 @@ button.form-btn {
   button.form-btn:focus {
     outline: none; }
 
+.footer {
+  padding: 54px 0; }
+
+.copyright {
+  font-family: 'Montserrat';
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.07px;
+  color: #202020;
+  text-transform: uppercase; }
+
+.social {
+  list-style: none; }
+
+.social-link {
+  color: #202020; }
+
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

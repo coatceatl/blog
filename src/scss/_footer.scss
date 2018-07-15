@@ -1,0 +1,17 @@
+.footer {
+  padding: 54px 0;
+}
+.copyright {
+  font-family: 'Montserrat';
+  font-size: remy(14px);
+  font-weight: 700;
+  letter-spacing: 0.07px;
+  color: $navbar-light-color;
+  text-transform: uppercase;
+}
+.social {
+  list-style: none;
+}
+.social-link {
+  color: $navbar-light-color;
+}
