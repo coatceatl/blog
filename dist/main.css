@@ -5,6 +5,9 @@
 .header {
   margin: 28px 0; }
 
+.nav-item {
+  padding-left: 28px; }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
@@ -107,7 +110,6 @@ time {
 }
 */
 .subscribe {
-  height: 230px;
   background-color: #f7f7f7; }
 
 .subscribe-title {
@@ -117,6 +119,9 @@ time {
   font-weight: 400;
   color: #202020;
   letter-spacing: 0.15px; }
+
+.form {
+  margin-bottom: 33px; }
 
 .form-input {
   font-family: 'Montserrat';
@@ -131,7 +136,8 @@ time {
   padding-bottom: 26px;
   padding-left: 16px;
   border: 1px solid #e0e0e0;
-  margin-bottom: 60px;
+  margin-bottom: 27px;
+  margin-right: 27px;
   outline: none; }
 
 button.form-btn {
