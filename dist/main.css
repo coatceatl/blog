@@ -27,6 +27,9 @@
   letter-spacing: 0.13px;
   padding-bottom: 54px; }
 
+.grid-item {
+  margin-bottom: 58px; }
+
 .post-image {
   background-color: #d4d5d0;
   position: relative; }
@@ -74,21 +77,35 @@
   font-weight: 400;
   color: #202020;
   text-transform: uppercase;
-  letter-spacing: 0.07px; }
+  letter-spacing: 0.07px;
+  margin-top: 11px; }
 
 time {
   font-family: 'Montserrat';
   font-size: 0.875rem;
   font-weight: 300; }
 
+.post-author {
+  font-family: 'Montserrat';
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.08px;
+  color: #202020;
+  margin: 2px 0 13px 0; }
+
+.author-link {
+  color: #0cbb58; }
+
+/*
 #disqus-thread {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 30%;
+  left: 30%;
   width: 300px;
-  height: 200px;
-  background-color: lightblue; }
-
+  height: 400px;
+  background-color: lightblue;
+}
+*/
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
