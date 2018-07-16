@@ -25,12 +25,12 @@
 
 .hamburger-icon {
   display: block;
-  position: fixed;
-  right: 28px;
+  position: absolute;
   height: 4px;
   background-color: #010101;
   width: 30px;
-  margin: auto; }
+  margin: auto;
+  margin-left: 22px; }
 
 .navbar-toggler:before, .navbar-toggler:after {
   content: '';
@@ -85,39 +85,31 @@
   font-size: 1.125rem;
   color: #4a4a4a;
   letter-spacing: 0.13px;
-  padding-bottom: 54px; }
+  padding-bottom: 54px;
+  padding-top: 12px; }
 
 .grid-item {
   margin-bottom: 58px;
-  width: 360px;
-  min-width: 360px;
-  max-width: 360px;
-  /*
-  @media(max-width: 720px) {
-    left: auto !important;
-  }*/ }
+  min-width: 350px; }
 
 .grid-sizer {
-  width: 360px;
-  max-width: 360px;
-  min-width: 360px; }
+  min-width: 350px; }
 
 .card {
-  width: 360px;
+  /*  margin-right:not(:last-child): 10px;*/
   border: none !important; }
   .card::after {
     content: '';
     position: absolute;
     bottom: -14px;
-    left: 50%;
+    left: 167px;
     width: 25px;
     height: 26px;
     background-color: #fff;
     transform: rotate(-45deg); }
 
 .post-image {
-  width: 360px;
-  max-width: 360px;
+  max-width: 350px;
   background-color: #d4d5d0;
   position: relative; }
 
@@ -133,10 +125,12 @@
 .image4 {
   height: 500px; }
 
+.post-body {
+  max-width: 350px; }
+
 .post-comments {
   content: '';
   position: absolute;
-  right: 0;
   bottom: 0;
   padding-left: 15px;
   padding-right: 15px;

@@ -12,31 +12,24 @@
   color: $text-color;
   letter-spacing: 0.13px;
   padding-bottom: 54px;
+  padding-top: 12px;
 }
 .grid-item {
   margin-bottom: 58px;
-  width: 360px;
-  min-width: 360px;
-  max-width: 360px;
-/*
-  @media(max-width: 720px) {
-    left: auto !important;
-  }*/
+  min-width: 350px;
 }
 .grid-sizer {
-  width: 360px;
-  max-width: 360px;
-  min-width: 360px;
+  min-width: 350px;
 }
 .card {
-  width: 360px;
+/*  margin-right:not(:last-child): 10px;*/
   border: none !important;
 
   &::after {
     content: '';
     position: absolute;
     bottom: -14px;
-    left: 50%;
+    left: 167px;
     width: 25px;
     height: 26px;
     background-color: #fff;
@@ -44,8 +37,7 @@
   }
 }
 .post-image {
-  width: 360px;
-  max-width: 360px;
+  max-width: 350px;
   background-color: #d4d5d0;
   position: relative;
 }
@@ -61,10 +53,12 @@
 .image4 {
   height: 500px;
 }
+.post-body {
+  max-width: 350px;
+}
 .post-comments {
   content:'';
   position: absolute;
-  right: 0;
   bottom: 0;
   padding-left: 15px;
   padding-right: 15px;
