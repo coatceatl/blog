@@ -43,3 +43,15 @@
     top: calc(100% - 14px);
   }
 }
+.mobile-menu {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: flex;
+    width: 183px;
+    margin-right: 40px;
+  }
+}
+.nav-social {
+  width: 100%;
+}

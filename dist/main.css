@@ -41,6 +41,17 @@
   .hamburger-icon:after {
     top: calc(100% - 14px); }
 
+.mobile-menu {
+  display: none; }
+  @media (max-width: 767px) {
+    .mobile-menu {
+      display: flex;
+      width: 183px;
+      margin-right: 40px; } }
+
+.nav-social {
+  width: 100%; }
+
 .blog {
   margin: 64px 0; }
 
