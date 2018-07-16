@@ -15,6 +15,12 @@
 }
 .grid-item {
   margin-bottom: 58px;
+  width: remy(360px);
+  min-width: remy(360px);
+}
+.grid-sizer {
+  width: 360px;
+  max-width: 360px;
 }
 .card {
   &::after {

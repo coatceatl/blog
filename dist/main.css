@@ -31,7 +31,13 @@
   padding-bottom: 54px; }
 
 .grid-item {
-  margin-bottom: 58px; }
+  margin-bottom: 58px;
+  width: 22.5rem;
+  min-width: 22.5rem; }
+
+.grid-sizer {
+  width: 360px;
+  max-width: 360px; }
 
 .card::after {
   content: '';
