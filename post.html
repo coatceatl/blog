@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='dist/main.css'>
   </head>
   <body>
+
     <header class='header'>
       <nav class='navbar navbar-expand-md navbar-light sticky-top'>
         <div class='container-fluid'>
@@ -32,11 +33,16 @@
                 </li>
               </ul>
             </div>
-            <button class='navbar-toggler ml-auto' type='button' data-toggle='collapse' data-target='#post-mobile'>
+            <button class='hamburger navbar-toggler ml-auto'
+                    type='button'
+                    data-toggle='collapse'
+                    data-target='#post-open'
+                    aria-expanded='false'
+                    aria-controls='post-open'>
               <span class='hamburger-icon'></span>
             </button>
           </div>
-          <div class='collapse navbar-collapse' id='post-mobile'>
+          <div class='collapse navbar-collapse' id='post-open'>
             <ul class='navbar-nav ml-auto'>
               <li class='nav-item'>
                 <a class='nav-link' href='#'>Home</a>
@@ -157,6 +163,7 @@
       </div>
     </footer>
 
+  <script src='dist/main.js'></script >
   </body>
 </html>
 

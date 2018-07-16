@@ -13,12 +13,12 @@ $(document).ready(function() {
     percentPosition: true
   });
 
-  $('.navbar-toggler').on('click', function(e) {
+  $('.hamburger').on('click', function(e) {
     e.preventDefault();
     $(this).toggleClass('active');
   });
 
-  $('.navbar-toggler').click(function(){
+  $('.hamburger').click(function(){
     $('.nav-social').fadeToggle();
   });
 });
