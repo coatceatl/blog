@@ -59,4 +59,18 @@
 }
 .nav-social {
   width: 100%;
+  padding-top: 20px;
+}
+.active {
+    .hamburger-icon {
+     /* opacity: 0;*/
+  }
+  &:after {
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  &:before {
+    transform: rotate(45deg);
+    top: 8px;
+  }
 }

@@ -55,7 +55,19 @@
       margin-right: 40px; } }
 
 .nav-social {
-  width: 100%; }
+  width: 100%;
+  padding-top: 20px; }
+
+.active .hamburger-icon {
+  /* opacity: 0;*/ }
+
+.active:after {
+  transform: rotate(-45deg);
+  top: 8px; }
+
+.active:before {
+  transform: rotate(45deg);
+  top: 8px; }
 
 .blog {
   margin: 64px 0; }
