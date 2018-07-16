@@ -1,6 +1,9 @@
 .header {
   margin: 28px 0;
 }
+.navbar.container-fluid {
+  position: relative;
+}
 .nav-item {
   padding-left: 28px;
 }
@@ -48,6 +51,8 @@
 
   @media (max-width: 767px) {
     display: flex;
+    position: absolute;
+    right: 28px;
     width: 183px;
     margin-right: 40px;
   }
