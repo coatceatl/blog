@@ -14,7 +14,6 @@ $(document).ready(function() {
   });
 
   $('.navbar-toggler').on('click', function(e) {
-    console.log('start');
     e.preventDefault();
     $(this).toggleClass('active');
   });
