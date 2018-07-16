@@ -29,7 +29,8 @@
   background-color: #010101;
   width: 30px;
   margin: auto;
-
+}
+.navbar-toggler {
   &:before, &:after {
     content: '';
     display: block;
@@ -38,12 +39,13 @@
     background-color: #010101;
     width: 41px;
     margin: auto;
-    top: 10px;
+    top: 20px;
     transform-origin: 50% 50%;
+    margin-left: 22px;
   }
 
   &:after {
-    top: calc(100% - 14px);
+    top: calc(100% - 20px);
   }
 }
 .mobile-menu {
@@ -62,8 +64,8 @@
   padding-top: 20px;
 }
 .active {
-    .hamburger-icon {
-     /* opacity: 0;*/
+  .hamburger-icon {
+    opacity: 0;
   }
   &:after {
     transform: rotate(-45deg);
