@@ -96,7 +96,6 @@
   min-width: 350px; }
 
 .card {
-  /*  margin-right:not(:last-child): 10px;*/
   border: none !important; }
   .card::after {
     content: '';
@@ -261,6 +260,24 @@ button.form-btn {
   color: #202020; }
   .social-link:hover {
     color: #0cbb58; }
+
+.author img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  margin-right: 50px; }
+
+.the-blogs .author-link {
+  font-family: 'Montserrat';
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: 0.08px;
+  text-transform: uppercase; }
+
+.subtitle a {
+  color: #4a4a4a;
+  text-decoration: none; }
 
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
