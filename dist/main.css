@@ -101,14 +101,14 @@
     content: '';
     position: absolute;
     bottom: -14px;
-    left: 167px;
+    left: 50%;
     width: 25px;
     height: 26px;
     background-color: #fff;
-    transform: rotate(-45deg); }
+    /* transform: rotate(90deg) translate(-50%);*/
+    transform: rotate(45deg) translate(-6%); }
 
 .post-image {
-  max-width: 350px;
   background-color: #d4d5d0;
   position: relative; }
 
@@ -123,9 +123,6 @@
 
 .image4 {
   height: 500px; }
-
-.post-body {
-  max-width: 350px; }
 
 .post-comments {
   content: '';
