@@ -279,6 +279,9 @@ button.form-btn {
   color: #4a4a4a;
   text-decoration: none; }
 
+.full-size {
+  width: 100%; }
+
 /*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
