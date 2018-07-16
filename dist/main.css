@@ -34,10 +34,11 @@
   margin-bottom: 58px;
   width: 360px;
   min-width: 360px;
-  max-width: 360px; }
-  @media (max-width: 720px) {
-    .grid-item {
-      left: auto !important; } }
+  max-width: 360px;
+  /*
+  @media(max-width: 720px) {
+    left: auto !important;
+  }*/ }
 
 .grid-sizer {
   width: 360px;
