@@ -15,6 +15,32 @@
   text-transform: uppercase;
   color: #202020; }
 
+.navbar-toggler {
+  border: none !important; }
+  .navbar-toggler:focus {
+    outline: none; }
+
+.hamburger-icon {
+  display: block;
+  position: fixed;
+  right: 28px;
+  height: 4px;
+  background-color: #010101;
+  width: 30px;
+  margin: auto; }
+  .hamburger-icon:before, .hamburger-icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 4px;
+    background-color: #010101;
+    width: 41px;
+    margin: auto;
+    top: 10px;
+    transform-origin: 50% 50%; }
+  .hamburger-icon:after {
+    top: calc(100% - 14px); }
+
 .blog {
   margin: 64px 0; }
 
