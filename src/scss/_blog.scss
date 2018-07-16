@@ -29,7 +29,8 @@
   min-width: 360px;
 }
 .card {
-  width: 100%;
+  width: 360px;
+  border: none !important;
 
   &::after {
     content: '';
@@ -71,7 +72,7 @@
   width: 100%;
   color: #fff;
 }
-.number {
+.comment-link {
   font-size: remy(14px);
   font-weight: 300;
   padding-left: 2px;

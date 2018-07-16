@@ -46,7 +46,8 @@
   min-width: 360px; }
 
 .card {
-  width: 100%; }
+  width: 360px;
+  border: none !important; }
   .card::after {
     content: '';
     position: absolute;
@@ -86,7 +87,7 @@
   width: 100%;
   color: #fff; }
 
-.number {
+.comment-link {
   font-size: 0.875rem;
   font-weight: 300;
   padding-left: 2px; }
