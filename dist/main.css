@@ -32,24 +32,33 @@
 
 .grid-item {
   margin-bottom: 58px;
-  width: 22.5rem;
-  min-width: 22.5rem; }
+  width: 360px;
+  min-width: 360px;
+  max-width: 360px; }
+  @media (max-width: 720px) {
+    .grid-item {
+      left: auto !important; } }
 
 .grid-sizer {
   width: 360px;
-  max-width: 360px; }
+  max-width: 360px;
+  min-width: 360px; }
 
-.card::after {
-  content: '';
-  position: absolute;
-  bottom: -14px;
-  left: 50%;
-  width: 25px;
-  height: 26px;
-  background-color: #fff;
-  transform: rotate(-45deg); }
+.card {
+  width: 100%; }
+  .card::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    width: 25px;
+    height: 26px;
+    background-color: #fff;
+    transform: rotate(-45deg); }
 
 .post-image {
+  width: 360px;
+  max-width: 360px;
   background-color: #d4d5d0;
   position: relative; }
 
