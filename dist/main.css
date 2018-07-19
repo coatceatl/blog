@@ -3,7 +3,7 @@
   src: url(fonts/DroidSerif-Bold-webfont.woff) format("woff"), url(fonts/DroidSerif-Bold-webfont.ttf) format("truetype"); }
 
 .header {
-  margin: 28px 0; }
+  margin: 25px 0; }
 
 .navbar.container-fluid {
   position: relative; }
@@ -90,7 +90,7 @@
   color: #4a4a4a;
   letter-spacing: 0.13px;
   padding-bottom: 54px;
-  padding-top: 12px; }
+  padding-top: 10px; }
 
 .grid-item {
   margin-bottom: 58px;
