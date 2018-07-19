@@ -17,6 +17,10 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #202020; }
+  .nav-link:hover {
+    text-decoration: none;
+    color: #0cbb58 !important;
+    font-weight: 700; }
 
 .navbar-toggler {
   border: none !important; }
